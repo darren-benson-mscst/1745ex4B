@@ -23,6 +23,8 @@ public class Main {
 		
 		// ------------------ p125 #10: Average Test Score ---------------
 		
+		
+		System.exit(0);
 	}
 
 }
