@@ -1,0 +1,117 @@
+﻿.navbar-inverse {
+    background: black; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(blue, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(blue, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(blue, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(blue, white); /* Standard syntax (must be last) */
+}
+
+.navbar-inverse .navbar-brand {
+    color: darkred;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: darkred;
+}
+
+aside {
+    
+    height: 33.2em;
+    width : 50%;
+    min-width : 500px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: lightgrey;
+    float : right;
+    
+          
+}
+
+aside h3 {
+    padding-left : 1em;
+}
+
+aside p {
+    clear: right;
+    font-style : italic;
+    padding: 0em 1em 0em 1em;
+}
+
+.carousel-caption {
+    
+    font:bold;
+    font-size :xx-large;
+    color: darkred;
+    text-align : center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+
+}
+
+a {
+    font: bold;
+    color: black;
+    text-decoration: none;
+    text-shadow: 0 3px 5px; 
+    
+}
+
+a:hover {
+    color: red;
+}
+
+body {
+    background-image: url('../Images/sky.jpg');
+    background-repeat :round;
+}
+
+div.header {
+    background-image: url('../Images/sky.jpg');
+    background-repeat :round;
+}
+
+div.col-md-6 {
+    border-style:groove;
+    border-radius: 5px;
+}
+
+div.col-md-6 img {
+    height : 23.35em; 
+    width: 100%;   
+}
+
+div.header {
+    height : 200px;
+}
+
+div.header img {
+    height : 200px;
+}
+
+div.row {
+    width: 100%;
+    border-radius: 5px;
+}
+
+div.row {
+    background-color : white;
+}
+
+.header {
+    text-shadow :0px 2px 3px gray;
+}
+
+.nav-tabs {
+    width : 500px;
+}
+
+p a {
+    color : black;
+}
+
+span.glyphicon {
+    font-size: 18px;
+}
+
+footer a {
+    color : black;
+}

@@ -1,0 +1,210 @@
+﻿.navbar-inverse {
+    background: black; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(blue, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(blue, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(blue, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(blue, white); /* Standard syntax (must be last) */
+}
+
+.navbar-inverse .navbar-brand {
+    color: darkred;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: darkred;
+}
+
+aside {
+    
+    width : 33%;
+    min-width : 200px;
+    border: 1px solid;
+    border-radius: 5px;
+    border-style: groove;
+    background-color: lightgrey;
+    float : right;
+    
+          
+}
+
+aside h3 {
+    padding-left : 1em;
+}
+
+aside p {
+    clear: right;
+    font-style : italic;
+    padding: 0em 1em 0em 1em;
+}
+
+
+a {
+    font: bold;
+    color: black;
+    text-decoration: none;
+    text-shadow: 0 3px 5px; 
+    
+}
+
+
+
+a:hover {
+    color: red;
+}
+
+body{
+    background-image: url('../Images/sky.jpg');
+    background-repeat :round;
+}
+
+div.header {
+    background-image: url('../Images/sky.jpg');
+    background-repeat :round;
+    height: 200px;
+}
+
+div.header img {
+    height: 200px;
+}
+
+div.col-lg-4 {
+    width: 33%;
+    height: 48em;
+    background-color: white;
+    border: 1px solid;
+    border-style : groove;
+    border-radius: 5px;
+    overflow : auto;
+}
+
+div.col-md-7 {
+    background-color: white;
+    border: 1px solid;
+    border-style : groove;
+    border-radius: 5px;  
+    left: 25%; 
+    width: 30em; 
+}
+
+
+div.table-responsive {
+   width: 100em;
+   float: left; 
+   padding-right: 50em;    
+}
+
+div.container1 {
+    margin-top: 2em;
+    width: 65%;
+}
+
+
+
+figcaption {
+    text-align : center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style:italic;
+}
+
+.header {
+    text-shadow :0px 2px 3px gray;
+}
+
+li a {
+    color: black;
+}
+
+p a {
+    color: black;
+}
+
+table tr {
+    width : 10px;
+}
+
+footer {
+    clear: both;
+}
+
+footer a {
+    
+    color: black;
+}
+
+.month {
+    padding: 50px 50px;
+    width: 100%;
+    background: blue;
+    height: 3em;
+}
+
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.month .prev {
+    float: left;
+    
+}
+
+.month .next {
+    float: right;
+    
+}
+
+.weekdays {
+    margin: 0;  
+    background-color: #ddd;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 12%;
+    color: #666;
+    text-align: center;
+}
+
+.days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+    height: 150px;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: #777;
+}
+
+.days li .active {
+    padding: 5px;
+    background: #1abc9c;
+    color: white !important
+}
+
+/* Add media queries for smaller screens */
+@media screen and (max-width:720px) {
+    .weekdays li, .days li {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+    .weekdays li, .days li {width: 12.5%;}
+    .days li .active {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+    .weekdays li, .days li {width: 12.2%;}
+}

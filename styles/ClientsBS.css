@@ -1,0 +1,117 @@
+﻿.navbar-inverse {
+    background: black; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(blue, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(blue, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(blue, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(blue, white); /* Standard syntax (must be last) */
+}
+
+.navbar-inverse .navbar-brand {
+    color: darkred;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: darkred;
+}
+
+aside{
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+a {
+    font: bold;
+    color: yellow;
+    text-decoration: none;
+    text-shadow: 0 3px 5px; 
+    
+}
+
+a:hover {
+    color: red;
+}
+
+body {
+    background-image: url('../Images/sky.jpg');
+    background-repeat :round;
+}
+
+div.header {
+    background-image: url('../Images/sky.jpg');
+    background-repeat :round;
+}
+
+div.col-md-6 {
+    border-radius: 5px;
+    border-style: groove;
+    background-color: white;
+}
+
+div #divModal {
+    height: 49em;
+}
+
+footer a {
+    color: black;
+}
+
+div.col-md-6 {
+    width : 50%;
+    overflow : auto;
+}
+
+div.col-md-6 img {
+    height : 200px;
+    width : 250px;
+}
+
+div.header {
+    height:200px;
+}
+
+div.header img {
+    height: 200px;
+}
+
+figcaption {
+    padding-left: 7em;
+}
+
+p a {
+    color: black;
+}
+
+img.clients {
+    border: 1px solid;
+}
+
+.header {
+    text-shadow :0px 2px 3px gray;
+}
+
+#div1 {
+    margin-top:1em;
+    width: 200px;
+    height: 40px;    
+    font-weight: bold;
+    position: relative;
+    -webkit-animation: mymove 5s infinite; 
+    animation: mymove 5s infinite;    
+    -webkit-animation-timing-function: linear;   
+    animation-timing-function: linear;
+    
+}
+
+span.glyphicon {
+   font-size: 18px;
+}
+
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 350px;}
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 350px;}
+}

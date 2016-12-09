@@ -1,0 +1,110 @@
+﻿.navbar-inverse {
+    background: black; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(blue, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(blue, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(blue, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(blue, white); /* Standard syntax (must be last) */
+}
+
+.navbar-inverse .navbar-brand {
+    color: darkred;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: darkred;
+}
+
+
+body {
+    background-image: url('../Images/sky.jpg');
+    background-repeat: round;
+   
+}
+
+.carousel-caption {
+    
+    font:bold;
+    font-size :xx-large;
+    color: darkred;
+    text-align : center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+
+}
+
+.btn-group-lg > .btn, .btn-lg {
+    margin-right : 30em;   
+}
+
+a {
+    font: bold;
+    color: yellow;
+    text-decoration: none;
+    text-shadow: 0 3px 5px; 
+    
+}
+
+a:hover {
+    color: red;
+}
+
+div.header {
+    background-image: url('../Images/sky.jpg');
+    background-repeat :round;
+    height: 200px;
+}
+
+div.header img {
+    height: 200px;
+}
+
+div.row {
+    width: 100%;
+    border-radius: 5px;
+    background-color: white;
+    border-style :groove;
+}
+
+div.row1 {
+    width: 100%;
+    margin-left: .25em;
+    margin-bottom : .25em;
+}
+
+div.row1 img {
+    width: 99%;
+}
+
+div.col-lg-4 {
+    
+    margin-bottom: .25em;
+}
+
+
+
+.header {
+    text-shadow :0px 2px 3px gray;
+}
+
+map {
+    display :inline;
+}
+
+#USA {
+    height: 180px;
+}
+
+.nav-tabs {
+    width : 500px;
+}
+
+p a {
+    color : black;
+}
+
+span.glyphicon {
+    font-size: 18px;
+}
+
+footer a {
+    color : black;
+}
