@@ -1,1 +1,0 @@
-COMC2740 Exercise 1C: Ch2 p124-125, #8, 9, 10: Java input dialog, sales tax, mpg, avg test scores.
